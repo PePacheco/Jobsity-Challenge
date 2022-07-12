@@ -9,23 +9,36 @@
 /* Begin PBXBuildFile section */
 		05585C75287DCDB5007F6205 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05585C74287DCDB5007F6205 /* AppDelegate.swift */; };
 		05585C77287DCDB5007F6205 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05585C76287DCDB5007F6205 /* SceneDelegate.swift */; };
-		05585C79287DCDB5007F6205 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05585C78287DCDB5007F6205 /* ViewController.swift */; };
-		05585C7C287DCDB5007F6205 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05585C7A287DCDB5007F6205 /* Main.storyboard */; };
 		05585C7F287DCDB5007F6205 /* Jobsity_Challenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 05585C7D287DCDB5007F6205 /* Jobsity_Challenge.xcdatamodeld */; };
 		05585C81287DCDB6007F6205 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05585C80287DCDB6007F6205 /* Assets.xcassets */; };
 		05585C84287DCDB6007F6205 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05585C82287DCDB6007F6205 /* LaunchScreen.storyboard */; };
+		05585C90287DCE8B007F6205 /* AppCoordinating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05585C8F287DCE8B007F6205 /* AppCoordinating.swift */; };
+		05585C92287DCE91007F6205 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05585C91287DCE91007F6205 /* AppCoordinator.swift */; };
+		05585C94287DCEC7007F6205 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05585C93287DCEC7007F6205 /* Coordinator.swift */; };
+		05585C98287DD041007F6205 /* SeriesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05585C96287DD041007F6205 /* SeriesListViewController.swift */; };
+		05585C99287DD041007F6205 /* SeriesListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05585C97287DD041007F6205 /* SeriesListViewController.xib */; };
+		05E368A1287DD747006C05C3 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 05E368A0287DD747006C05C3 /* Kingfisher */; };
+		05E368A4287DD778006C05C3 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 05E368A3287DD778006C05C3 /* RxCocoa */; };
+		05E368A6287DD778006C05C3 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 05E368A5287DD778006C05C3 /* RxRelay */; };
+		05E368A8287DD778006C05C3 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 05E368A7287DD778006C05C3 /* RxSwift */; };
+		05E368AB287DD7DC006C05C3 /* SkeletonView in Frameworks */ = {isa = PBXBuildFile; productRef = 05E368AA287DD7DC006C05C3 /* SkeletonView */; };
+		05E368AD287DD80F006C05C3 /* SeriesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E368AC287DD80F006C05C3 /* SeriesListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		05585C71287DCDB5007F6205 /* Jobsity-Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jobsity-Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05585C74287DCDB5007F6205 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05585C76287DCDB5007F6205 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		05585C78287DCDB5007F6205 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		05585C7B287DCDB5007F6205 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		05585C7E287DCDB5007F6205 /* Jobsity_Challenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Jobsity_Challenge.xcdatamodel; sourceTree = "<group>"; };
 		05585C80287DCDB6007F6205 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05585C83287DCDB6007F6205 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05585C85287DCDB6007F6205 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05585C8F287DCE8B007F6205 /* AppCoordinating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinating.swift; sourceTree = "<group>"; };
+		05585C91287DCE91007F6205 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		05585C93287DCEC7007F6205 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		05585C96287DD041007F6205 /* SeriesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesListViewController.swift; sourceTree = "<group>"; };
+		05585C97287DD041007F6205 /* SeriesListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SeriesListViewController.xib; sourceTree = "<group>"; };
+		05E368AC287DD80F006C05C3 /* SeriesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +46,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05E368A6287DD778006C05C3 /* RxRelay in Frameworks */,
+				05E368A4287DD778006C05C3 /* RxCocoa in Frameworks */,
+				05E368A8287DD778006C05C3 /* RxSwift in Frameworks */,
+				05E368A1287DD747006C05C3 /* Kingfisher in Frameworks */,
+				05E368AB287DD7DC006C05C3 /* SkeletonView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,16 +76,60 @@
 		05585C73287DCDB5007F6205 /* Jobsity-Challenge */ = {
 			isa = PBXGroup;
 			children = (
-				05585C74287DCDB5007F6205 /* AppDelegate.swift */,
-				05585C76287DCDB5007F6205 /* SceneDelegate.swift */,
-				05585C78287DCDB5007F6205 /* ViewController.swift */,
-				05585C7A287DCDB5007F6205 /* Main.storyboard */,
-				05585C80287DCDB6007F6205 /* Assets.xcassets */,
-				05585C82287DCDB6007F6205 /* LaunchScreen.storyboard */,
-				05585C85287DCDB6007F6205 /* Info.plist */,
+				05E3689E287DD717006C05C3 /* Network */,
+				05585C8B287DCE03007F6205 /* Resources */,
+				05585C8C287DCE14007F6205 /* Navigation */,
+				05585C8D287DCE1B007F6205 /* Views */,
 				05585C7D287DCDB5007F6205 /* Jobsity_Challenge.xcdatamodeld */,
+				05585C85287DCDB6007F6205 /* Info.plist */,
 			);
 			path = "Jobsity-Challenge";
+			sourceTree = "<group>";
+		};
+		05585C8B287DCE03007F6205 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				05585C74287DCDB5007F6205 /* AppDelegate.swift */,
+				05585C76287DCDB5007F6205 /* SceneDelegate.swift */,
+				05585C80287DCDB6007F6205 /* Assets.xcassets */,
+				05585C82287DCDB6007F6205 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		05585C8C287DCE14007F6205 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				05585C8F287DCE8B007F6205 /* AppCoordinating.swift */,
+				05585C91287DCE91007F6205 /* AppCoordinator.swift */,
+				05585C93287DCEC7007F6205 /* Coordinator.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		05585C8D287DCE1B007F6205 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				05585C95287DCFED007F6205 /* Series List */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		05585C95287DCFED007F6205 /* Series List */ = {
+			isa = PBXGroup;
+			children = (
+				05585C96287DD041007F6205 /* SeriesListViewController.swift */,
+				05585C97287DD041007F6205 /* SeriesListViewController.xib */,
+				05E368AC287DD80F006C05C3 /* SeriesListViewModel.swift */,
+			);
+			path = "Series List";
+			sourceTree = "<group>";
+		};
+		05E3689E287DD717006C05C3 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +148,13 @@
 			dependencies = (
 			);
 			name = "Jobsity-Challenge";
+			packageProductDependencies = (
+				05E368A0287DD747006C05C3 /* Kingfisher */,
+				05E368A3287DD778006C05C3 /* RxCocoa */,
+				05E368A5287DD778006C05C3 /* RxRelay */,
+				05E368A7287DD778006C05C3 /* RxSwift */,
+				05E368AA287DD7DC006C05C3 /* SkeletonView */,
+			);
 			productName = "Jobsity-Challenge";
 			productReference = 05585C71287DCDB5007F6205 /* Jobsity-Challenge.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +183,11 @@
 				Base,
 			);
 			mainGroup = 05585C68287DCDB5007F6205;
+			packageReferences = (
+				05E3689F287DD747006C05C3 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				05E368A2287DD778006C05C3 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				05E368A9287DD7DC006C05C3 /* XCRemoteSwiftPackageReference "SkeletonView" */,
+			);
 			productRefGroup = 05585C72287DCDB5007F6205 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -130,7 +204,7 @@
 			files = (
 				05585C84287DCDB6007F6205 /* LaunchScreen.storyboard in Resources */,
 				05585C81287DCDB6007F6205 /* Assets.xcassets in Resources */,
-				05585C7C287DCDB5007F6205 /* Main.storyboard in Resources */,
+				05585C99287DD041007F6205 /* SeriesListViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,23 +216,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				05585C7F287DCDB5007F6205 /* Jobsity_Challenge.xcdatamodeld in Sources */,
-				05585C79287DCDB5007F6205 /* ViewController.swift in Sources */,
 				05585C75287DCDB5007F6205 /* AppDelegate.swift in Sources */,
+				05585C98287DD041007F6205 /* SeriesListViewController.swift in Sources */,
+				05585C94287DCEC7007F6205 /* Coordinator.swift in Sources */,
+				05585C92287DCE91007F6205 /* AppCoordinator.swift in Sources */,
+				05585C90287DCE8B007F6205 /* AppCoordinating.swift in Sources */,
 				05585C77287DCDB5007F6205 /* SceneDelegate.swift in Sources */,
+				05E368AD287DD80F006C05C3 /* SeriesListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		05585C7A287DCDB5007F6205 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				05585C7B287DCDB5007F6205 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		05585C82287DCDB6007F6205 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,9 +366,10 @@
 				INFOPLIST_FILE = "Jobsity-Challenge/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -324,9 +395,10 @@
 				INFOPLIST_FILE = "Jobsity-Challenge/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -362,6 +434,61 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		05E3689F287DD747006C05C3 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		05E368A2287DD778006C05C3 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		05E368A9287DD7DC006C05C3 /* XCRemoteSwiftPackageReference "SkeletonView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Juanpe/SkeletonView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		05E368A0287DD747006C05C3 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 05E3689F287DD747006C05C3 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		05E368A3287DD778006C05C3 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 05E368A2287DD778006C05C3 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		05E368A5287DD778006C05C3 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 05E368A2287DD778006C05C3 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		05E368A7287DD778006C05C3 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 05E368A2287DD778006C05C3 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		05E368AA287DD7DC006C05C3 /* SkeletonView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 05E368A9287DD7DC006C05C3 /* XCRemoteSwiftPackageReference "SkeletonView" */;
+			productName = SkeletonView;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		05585C7D287DCDB5007F6205 /* Jobsity_Challenge.xcdatamodeld */ = {
