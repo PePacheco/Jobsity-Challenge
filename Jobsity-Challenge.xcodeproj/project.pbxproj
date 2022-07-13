@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		052741E3287DF6A9009733DF /* HTTPError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052741E2287DF6A9009733DF /* HTTPError.swift */; };
+		052741EE287DF74E009733DF /* Jobsity_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052741ED287DF74E009733DF /* Jobsity_ChallengeTests.swift */; };
+		052741F4287DF753009733DF /* PokemonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052741E5287DF6E5009733DF /* PokemonTests.swift */; };
 		05585C75287DCDB5007F6205 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05585C74287DCDB5007F6205 /* AppDelegate.swift */; };
 		05585C77287DCDB5007F6205 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05585C76287DCDB5007F6205 /* SceneDelegate.swift */; };
 		05585C7F287DCDB5007F6205 /* Jobsity_Challenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 05585C7D287DCDB5007F6205 /* Jobsity_Challenge.xcdatamodeld */; };
@@ -23,9 +26,28 @@
 		05E368A8287DD778006C05C3 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 05E368A7287DD778006C05C3 /* RxSwift */; };
 		05E368AB287DD7DC006C05C3 /* SkeletonView in Frameworks */ = {isa = PBXBuildFile; productRef = 05E368AA287DD7DC006C05C3 /* SkeletonView */; };
 		05E368AD287DD80F006C05C3 /* SeriesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E368AC287DD80F006C05C3 /* SeriesListViewModel.swift */; };
+		05E368B0287DEE85006C05C3 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E368AF287DEE85006C05C3 /* UIViewController+Extensions.swift */; };
+		05E368BD287DF0FE006C05C3 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E368BC287DF0FE006C05C3 /* HTTPClient.swift */; };
+		05E368BF287DF31E006C05C3 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E368BE287DF31E006C05C3 /* Pokemon.swift */; };
+		05E368C1287DF343006C05C3 /* PokemonRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E368C0287DF343006C05C3 /* PokemonRepository.swift */; };
+		05E368C3287DF564006C05C3 /* GetAllPokemonsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E368C2287DF564006C05C3 /* GetAllPokemonsUseCase.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		052741EF287DF74E009733DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05585C69287DCDB5007F6205 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05585C70287DCDB5007F6205;
+			remoteInfo = "Jobsity-Challenge";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		052741E2287DF6A9009733DF /* HTTPError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPError.swift; sourceTree = "<group>"; };
+		052741E5287DF6E5009733DF /* PokemonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonTests.swift; sourceTree = "<group>"; };
+		052741EB287DF74E009733DF /* Jobsity-ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jobsity-ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		052741ED287DF74E009733DF /* Jobsity_ChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jobsity_ChallengeTests.swift; sourceTree = "<group>"; };
 		05585C71287DCDB5007F6205 /* Jobsity-Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jobsity-Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05585C74287DCDB5007F6205 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05585C76287DCDB5007F6205 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,9 +61,21 @@
 		05585C96287DD041007F6205 /* SeriesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesListViewController.swift; sourceTree = "<group>"; };
 		05585C97287DD041007F6205 /* SeriesListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SeriesListViewController.xib; sourceTree = "<group>"; };
 		05E368AC287DD80F006C05C3 /* SeriesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesListViewModel.swift; sourceTree = "<group>"; };
+		05E368AF287DEE85006C05C3 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		05E368BC287DF0FE006C05C3 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		05E368BE287DF31E006C05C3 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		05E368C0287DF343006C05C3 /* PokemonRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonRepository.swift; sourceTree = "<group>"; };
+		05E368C2287DF564006C05C3 /* GetAllPokemonsUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAllPokemonsUseCase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		052741E8287DF74E009733DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		05585C6E287DCDB5007F6205 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -57,10 +91,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		052741E4287DF6D5009733DF /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				052741E5287DF6E5009733DF /* PokemonTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		052741EC287DF74E009733DF /* Jobsity-ChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				052741ED287DF74E009733DF /* Jobsity_ChallengeTests.swift */,
+			);
+			path = "Jobsity-ChallengeTests";
+			sourceTree = "<group>";
+		};
 		05585C68287DCDB5007F6205 = {
 			isa = PBXGroup;
 			children = (
 				05585C73287DCDB5007F6205 /* Jobsity-Challenge */,
+				052741EC287DF74E009733DF /* Jobsity-ChallengeTests */,
 				05585C72287DCDB5007F6205 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				05585C71287DCDB5007F6205 /* Jobsity-Challenge.app */,
+				052741EB287DF74E009733DF /* Jobsity-ChallengeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,6 +128,8 @@
 		05585C73287DCDB5007F6205 /* Jobsity-Challenge */ = {
 			isa = PBXGroup;
 			children = (
+				052741E4287DF6D5009733DF /* Tests */,
+				05E368B3287DEE9A006C05C3 /* Models */,
 				05E3689E287DD717006C05C3 /* Network */,
 				05585C8B287DCE03007F6205 /* Resources */,
 				05585C8C287DCE14007F6205 /* Navigation */,
@@ -89,10 +143,12 @@
 		05585C8B287DCE03007F6205 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				05E368AE287DEE75006C05C3 /* Extensions */,
 				05585C74287DCDB5007F6205 /* AppDelegate.swift */,
 				05585C76287DCDB5007F6205 /* SceneDelegate.swift */,
 				05585C80287DCDB6007F6205 /* Assets.xcassets */,
 				05585C82287DCDB6007F6205 /* LaunchScreen.storyboard */,
+				052741E2287DF6A9009733DF /* HTTPError.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -128,13 +184,66 @@
 		05E3689E287DD717006C05C3 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				05E368B2287DEE95006C05C3 /* Repositories */,
+				05E368B1287DEE91006C05C3 /* UseCases */,
+				05E368BC287DF0FE006C05C3 /* HTTPClient.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		05E368AE287DEE75006C05C3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				05E368AF287DEE85006C05C3 /* UIViewController+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		05E368B1287DEE91006C05C3 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				05E368C2287DF564006C05C3 /* GetAllPokemonsUseCase.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		05E368B2287DEE95006C05C3 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				05E368C0287DF343006C05C3 /* PokemonRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		05E368B3287DEE9A006C05C3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				05E368BE287DF31E006C05C3 /* Pokemon.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		052741EA287DF74E009733DF /* Jobsity-ChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 052741F1287DF74E009733DF /* Build configuration list for PBXNativeTarget "Jobsity-ChallengeTests" */;
+			buildPhases = (
+				052741E7287DF74E009733DF /* Sources */,
+				052741E8287DF74E009733DF /* Frameworks */,
+				052741E9287DF74E009733DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				052741F0287DF74E009733DF /* PBXTargetDependency */,
+			);
+			name = "Jobsity-ChallengeTests";
+			productName = "Jobsity-ChallengeTests";
+			productReference = 052741EB287DF74E009733DF /* Jobsity-ChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		05585C70287DCDB5007F6205 /* Jobsity-Challenge */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 05585C88287DCDB6007F6205 /* Build configuration list for PBXNativeTarget "Jobsity-Challenge" */;
@@ -169,6 +278,10 @@
 				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
+					052741EA287DF74E009733DF = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 05585C70287DCDB5007F6205;
+					};
 					05585C70287DCDB5007F6205 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
@@ -193,11 +306,19 @@
 			projectRoot = "";
 			targets = (
 				05585C70287DCDB5007F6205 /* Jobsity-Challenge */,
+				052741EA287DF74E009733DF /* Jobsity-ChallengeTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		052741E9287DF74E009733DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		05585C6F287DCDB5007F6205 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -211,22 +332,45 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		052741E7287DF74E009733DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				052741EE287DF74E009733DF /* Jobsity_ChallengeTests.swift in Sources */,
+				052741F4287DF753009733DF /* PokemonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		05585C6D287DCDB5007F6205 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				05585C7F287DCDB5007F6205 /* Jobsity_Challenge.xcdatamodeld in Sources */,
 				05585C75287DCDB5007F6205 /* AppDelegate.swift in Sources */,
+				052741E3287DF6A9009733DF /* HTTPError.swift in Sources */,
 				05585C98287DD041007F6205 /* SeriesListViewController.swift in Sources */,
 				05585C94287DCEC7007F6205 /* Coordinator.swift in Sources */,
+				05E368B0287DEE85006C05C3 /* UIViewController+Extensions.swift in Sources */,
 				05585C92287DCE91007F6205 /* AppCoordinator.swift in Sources */,
+				05E368C3287DF564006C05C3 /* GetAllPokemonsUseCase.swift in Sources */,
+				05E368BF287DF31E006C05C3 /* Pokemon.swift in Sources */,
+				05E368BD287DF0FE006C05C3 /* HTTPClient.swift in Sources */,
 				05585C90287DCE8B007F6205 /* AppCoordinating.swift in Sources */,
 				05585C77287DCDB5007F6205 /* SceneDelegate.swift in Sources */,
 				05E368AD287DD80F006C05C3 /* SeriesListViewModel.swift in Sources */,
+				05E368C1287DF343006C05C3 /* PokemonRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		052741F0287DF74E009733DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05585C70287DCDB5007F6205 /* Jobsity-Challenge */;
+			targetProxy = 052741EF287DF74E009733DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		05585C82287DCDB6007F6205 /* LaunchScreen.storyboard */ = {
@@ -240,6 +384,42 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		052741F2287DF74E009733DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3XP27NL574;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pedropacheco.Jobsity-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jobsity-Challenge.app/Jobsity-Challenge";
+			};
+			name = Debug;
+		};
+		052741F3287DF74E009733DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3XP27NL574;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pedropacheco.Jobsity-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jobsity-Challenge.app/Jobsity-Challenge";
+			};
+			name = Release;
+		};
 		05585C86287DCDB6007F6205 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -415,6 +595,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		052741F1287DF74E009733DF /* Build configuration list for PBXNativeTarget "Jobsity-ChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				052741F2287DF74E009733DF /* Debug */,
+				052741F3287DF74E009733DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		05585C6C287DCDB5007F6205 /* Build configuration list for PBXProject "Jobsity-Challenge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
